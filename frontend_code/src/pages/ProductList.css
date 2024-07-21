@@ -1,0 +1,45 @@
+.productlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.productlist-card {
+  padding: 20px;
+  text-align: center;
+}
+
+.productlist-image-div {
+  width: 290px;
+  height: 500px;
+  
+}
+
+.productlist-image {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.productlist-name {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333; /* Ensure text is visible */
+}
+
+.productlist-description {
+  font-size: 1em;
+  margin: 10px 15px;
+  color: #666; /* Ensure text is visible */
+  flex-grow: 1; /* Allows the description to expand and fill available space */
+}
+
+.productlist-price {
+  font-size: 1.2em;
+  color: #3a3a3a;
+  margin: 10px 0;
+}
+

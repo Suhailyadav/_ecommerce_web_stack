@@ -1,0 +1,109 @@
+@importurl('https://fonts.googleapis.com/css2family=Plus+Jakarta+Sans:ital,wght@0,200;0,700;1,200&display=swap');
+
+.register-section {  
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+
+}
+
+.register-card {
+    background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.105);
+}
+
+.register-card h2 {
+    text-align: center;
+    color: #333;
+}
+
+.register-card form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-card input {
+    padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  color: #333;
+}
+
+.register-card input:focus {
+    border-color: #555;
+}
+
+
+#registerButton {
+    background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+} 
+
+#registerButton:hover {
+    background-color: #2980b9;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    background-color: #eeeeee;
+}
+
+.card form a{
+    padding: 15px 20px;
+    background-color: rgba(17, 17, 17, 0.8);
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+.switch a{
+    cursor: pointer;
+    color: rgb(0, 47, 255);
+    text-align: center  ;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 575px) {
+    .card {
+        width: 100%;
+        max-width: 300px;
+        max-height: 880px;
+    }
+    input:focus {
+      outline: none;
+      border-color: #3498db;
+    }
+    .mydict div {
+        width: 100%;
+    }
+}
